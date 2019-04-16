@@ -19,7 +19,7 @@
 class Config
 {
     const ACCOUNT_NAME = 'gagalcoding';
-    const ACCOUNT_KEY = 'm1dfnPBOaNkI9NmFNI8hFgSvcg76ORs5xuUzXsFYux3jp01NYTRptBOYPMz8hJuz3JBGTGMo13Tyliwk6+6aZg==';
+    const ACCOUNT_KEY = 'Z7eHZmw4VF8OqkmK+G69eIsPB+6DR0JLCdRtaOpvv2/glpS6OIz30GZH1qUiiq4C4TZK2IC8pT04QxQAQBnedg==';
     const IS_EMULATED = false;
 
     public static function getConnectionString()
