@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitd7387ba4e57e08b3a055eb77f936b2ac
+class ComposerStaticInita131b16f1baf3ec6cc8fced102403e69
 {
     public static $files = array (
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
@@ -20,8 +20,7 @@ class ComposerStaticInitd7387ba4e57e08b3a055eb77f936b2ac
         ),
         'M' => 
         array (
-            'MicrosoftAzure\\Storage\\Common\\' => 30,
-            'MicrosoftAzure\\Storage\\Blob\\' => 28,
+            'MicrosoftAzure\\Storage\\' => 23,
         ),
         'G' => 
         array (
@@ -36,13 +35,9 @@ class ComposerStaticInitd7387ba4e57e08b3a055eb77f936b2ac
         array (
             0 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
-        'MicrosoftAzure\\Storage\\Common\\' => 
+        'MicrosoftAzure\\Storage\\' => 
         array (
-            0 => __DIR__ . '/..' . '/microsoft/azure-storage-common/src/Common',
-        ),
-        'MicrosoftAzure\\Storage\\Blob\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/microsoft/azure-storage-blob/src/Blob',
+            0 => __DIR__ . '/..' . '/microsoft/azure-storage/src',
         ),
         'GuzzleHttp\\Psr7\\' => 
         array (
@@ -61,8 +56,8 @@ class ComposerStaticInitd7387ba4e57e08b3a055eb77f936b2ac
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitd7387ba4e57e08b3a055eb77f936b2ac::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitd7387ba4e57e08b3a055eb77f936b2ac::$prefixDirsPsr4;
+            $loader->prefixLengthsPsr4 = ComposerStaticInita131b16f1baf3ec6cc8fced102403e69::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInita131b16f1baf3ec6cc8fced102403e69::$prefixDirsPsr4;
 
         }, null, ClassLoader::class);
     }
