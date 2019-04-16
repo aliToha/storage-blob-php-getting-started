@@ -23,4 +23,7 @@ require_once "./blob_advanced.php";
 $blobBasicSamples = new BlobBasicSamples();
 $blobBasicSamples->runAllSamples();
 
+$blobAdvancedSamples = new BlobAdvancedSamples();
+$blobAdvancedSamples->runAllSamples();
+
 ?>
